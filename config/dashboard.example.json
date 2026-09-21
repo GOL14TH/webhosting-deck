@@ -1,0 +1,14 @@
+{
+  "title": "WEBHOSTING DECK",
+  "subtitle": "WEB + POWER STATUS",
+  "health_url": "http://127.0.0.1:8080/",
+  "access_log": "/var/log/nginx/webhosting_deck_access.log",
+  "state_file": "/var/lib/webhosting-deck/visitors.json",
+  "framebuffer": "/dev/fb0",
+  "ina219_address": "0x43",
+  "current_polarity": 1,
+  "current_idle_threshold_ma": 10,
+  "battery_empty_v": 3.0,
+  "battery_full_v": 4.2,
+  "visitor_window_seconds": 300
+}

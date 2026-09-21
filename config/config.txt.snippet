@@ -1,0 +1,5 @@
+# Webhosting Deck: generic 3.5-inch ILI9486 / XPT2046 SPI display
+# Append to /boot/firmware/config.txt on current Raspberry Pi OS releases.
+dtparam=spi=on
+dtparam=i2c_arm=on
+dtoverlay=piscreen,speed=16000000,rotate=270
