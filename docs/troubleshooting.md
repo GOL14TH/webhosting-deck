@@ -1,6 +1,6 @@
 # Troubleshooting
 
-Start with `sudo ./scripts/check.sh`.
+Start with `sudo bash scripts/check.sh`.
 
 ## Blank display
 
