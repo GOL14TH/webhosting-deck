@@ -20,7 +20,8 @@ Enable I²C and SPI with `sudo raspi-config`. Append `config/config.txt.snippet`
 git clone https://github.com/YOUR_ACCOUNT/webhosting-deck.git
 cd webhosting-deck
 cp config/dashboard.example.json config/dashboard.json
-nano config/dashboard.jsonsudo bash scripts/install.sh
+nano config/dashboard.json
+sudo bash scripts/install.sh
 sudo reboot
 ```
 
