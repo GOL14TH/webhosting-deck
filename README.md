@@ -62,7 +62,7 @@ cloudflared ──► Nginx on 127.0.0.1:8080 ──► static website
 5. Run the installer:
 
    ```bash
-   sudo ./scripts/install.sh
+   sudo bash scripts/install.sh
    ```
 
 6. Put your static site in `/var/www/webhosting-deck/`.
