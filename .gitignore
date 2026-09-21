@@ -1,0 +1,11 @@
+config/dashboard.json
+*.pem
+*.key
+*.log
+*.swp
+__pycache__/
+.venv/
+.DS_Store
+credentials.json
+cert.pem
+*.json.tmp
