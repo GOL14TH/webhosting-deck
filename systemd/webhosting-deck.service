@@ -1,0 +1,19 @@
+[Unit]
+Description=Webhosting Deck framebuffer dashboard
+After=network-online.target nginx.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/opt/webhosting-deck/venv/bin/python /opt/webhosting-deck/webhosting_deck.py --config /etc/webhosting-deck/dashboard.json
+Restart=always
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/dev/fb0 /var/lib/webhosting-deck
+
+[Install]
+WantedBy=multi-user.target
